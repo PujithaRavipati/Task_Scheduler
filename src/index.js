@@ -6,7 +6,7 @@ import App from './App';
 import { AuthProvider } from './context/AuthContext';
 import { TaskProvider } from './context/TaskContext';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://taskscheduler-production.up.railway.app/';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
